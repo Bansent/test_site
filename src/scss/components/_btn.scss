@@ -1,0 +1,18 @@
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: var(--accent-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--light-color);
+  padding: 25.12px 54px;
+  min-width: 260px;
+
+  &--dark{
+    background-color: var(--dark-color);
+  }
+}

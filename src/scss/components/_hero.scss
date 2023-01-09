@@ -1,0 +1,33 @@
+.hero{
+  padding-top: 160px;
+  min-height: 800px;
+  background-color: var(--dark-color);
+  &__container {
+    @include flex-v-center;
+  }
+  &__content{
+    max-width: 516px;
+  }
+
+  &__image{
+    transform: translateX(167px);
+  }
+
+  &__title{
+    margin: 0;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 160%;
+    color: var(--light-color);
+
+    &--text{
+      display: block;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 160%;
+      text-transform: initial;
+    }
+  }
+}
